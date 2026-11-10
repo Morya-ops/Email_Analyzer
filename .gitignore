@@ -1,0 +1,16 @@
+# secrets
+.env
+*.pem
+
+# generated data
+data/*.db
+data/*.db-*
+data/chroma/
+data/demo_*.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
